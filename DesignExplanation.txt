@@ -1,5 +1,14 @@
-  Our Library Management System is designed to keep things running smoothly while staying easy to maintain. The Library class is the main hub, bringing together BookEntry, Loan, Member, and Librarian classes, just like in a real library. This setup helps the Library manage books, handle loans, and keep track of members and staff without directly owning them, making the system flexible and easy to expand.
+  Our Library Management System is designed to keep things running smoothly while staying easy to maintain. 
+The Library class is the main hub, bringing together BookEntry, Loan, Member, and Librarian classes, just like in a real library. 
+This setup helps the Library manage books, handle loans, and keep track of members and staff without directly owning them, making the system flexible and easy to expand.
 
-  The BookEntry class handles all the details of individual books—like the title, author, ISBN, availability, and price. It’s an essential part of book management, helping to track whether a book can be checked out or needs to be returned. The Member class focuses on library users, managing their contact info, borrowing history, and actions like paying fines, renting, returning, and renewing books. This keeps all the member-specific tasks in one place making it easy to manage how users interact with the library. The Librarian class builds on the Member class, giving librarians all the basic member functionalities plus extra responsibilities like reshelving books, finding entries, and checking out books. This setup keeps the system organized by reusing existing functions and adding only what’s unique to librarians. The Loan class manages the book borrowing process, tracking loan IDs, due dates, and payment status. It includes functions to check if a book is returned or overdue, seamlessly tying into the Library’s overall management of book circulation.
+  The BookEntry class handles all the details of individual books—like the title, author, ISBN, availability, and price. 
+It’s an essential part of book management, helping to track whether a book can be checked out or needs to be returned. 
+The Member class focuses on library users, managing their contact info, borrowing history, and actions like paying fines, renting, returning, and renewing books. 
+This keeps all the member-specific tasks in one place making it easy to manage how users interact with the library. 
+The Librarian class builds on the Member class, giving librarians all the basic member functionalities plus extra responsibilities like reshelving books, finding entries, and checking out books. 
+This setup keeps the system organized by reusing existing functions and adding only what’s unique to librarians. 
+The Loan class manages the book borrowing process, tracking loan IDs, due dates, and payment status. It includes functions to check if a book is returned or overdue, seamlessly tying into the Library’s overall management of book circulation.
 
-  Overall, our design is modular, using aggregation and inheritance to clearly define roles and relationships between classes. This mirrors real-world operations, ensuring that every part of the system works together effectively.
+  Overall, our design is modular, using aggregation and inheritance to clearly define roles and relationships between classes. 
+This mirrors real-world operations, ensuring that every part of the system works together effectively.
