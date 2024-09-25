@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Librarian" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-90" width="173" height="560" as="geometry">
+          <mxGeometry x="-90" width="173" height="570" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -27,32 +27,32 @@
         <mxCell id="iNvIvl79tMsVRz-qhqXm-43" value="+ Library&lt;span style=&quot;background-color: initial;&quot;&gt;(String userName,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;String passwordHash, int ID,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Library library)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="150" width="173" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iNvIvl79tMsVRz-qhqXm-45" value="+ changePassword&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(String currPasswordHash,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;String newPasswordHash)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="210" width="173" height="60" as="geometry" />
+        <mxCell id="iNvIvl79tMsVRz-qhqXm-45" value="+ changePassword&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(String currPasswordHash,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;String newPasswordHash)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: boolean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="210" width="173" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iNvIvl79tMsVRz-qhqXm-46" value="+ getUserName&lt;span style=&quot;background-color: initial;&quot;&gt;() : String&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="270" width="173" height="30" as="geometry" />
+          <mxGeometry y="280" width="173" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iNvIvl79tMsVRz-qhqXm-47" value="+ getID&lt;span style=&quot;background-color: initial;&quot;&gt;() : int&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="300" width="173" height="30" as="geometry" />
+          <mxGeometry y="310" width="173" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iNvIvl79tMsVRz-qhqXm-42" value="+ getLibrary&lt;span style=&quot;background-color: initial;&quot;&gt;() : Library&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="330" width="173" height="30" as="geometry" />
+          <mxGeometry y="340" width="173" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iNvIvl79tMsVRz-qhqXm-41" value="+ setLibrary&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(Library library) : void&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="360" width="173" height="40" as="geometry" />
+          <mxGeometry y="370" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iNvIvl79tMsVRz-qhqXm-40" value="+ isMember&lt;div&gt;(String memID) : boolean&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="400" width="173" height="40" as="geometry" />
+          <mxGeometry y="410" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="64K2vE5NSlZGig4ldIWL-10" value="+ reshelfBook&lt;div&gt;(String ISBN) : void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="440" width="173" height="40" as="geometry" />
+          <mxGeometry y="450" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="64K2vE5NSlZGig4ldIWL-14" value="+ searchBook&lt;div&gt;(String ISBN) : BookEntry&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="480" width="173" height="40" as="geometry" />
+          <mxGeometry y="490" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="64K2vE5NSlZGig4ldIWL-15" value="+ checkoutBook&lt;div&gt;(String ISBN) : void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="520" width="173" height="40" as="geometry" />
+          <mxGeometry y="530" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Member" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="690" width="160" height="280" as="geometry">
