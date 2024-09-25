@@ -91,36 +91,45 @@
           <mxGeometry y="150" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-0" value="Library" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="224" width="199" height="360" as="geometry">
+          <mxGeometry x="224" width="205" height="480" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-9" value="+ bookEntries : ArrayList&lt;div&gt;&amp;lt;BookEntry&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="26" width="199" height="40" as="geometry" />
+          <mxGeometry y="26" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-13" value="+ loans : ArrayList&amp;lt;Loan&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="66" width="199" height="30" as="geometry" />
+          <mxGeometry y="66" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-15" value="+ members : ArrayList&amp;lt;Member&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="96" width="199" height="30" as="geometry" />
+          <mxGeometry y="96" width="205" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="chUHbdW1xkKSAvhsrKf5-16" value="+ employee : ArrayList&amp;lt;Librarian&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="126" width="199" height="30" as="geometry" />
+        <mxCell id="chUHbdW1xkKSAvhsrKf5-16" value="- employees : ArrayList&amp;lt;Librarian&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
+          <mxGeometry y="126" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="156" width="199" height="54" as="geometry" />
+          <mxGeometry y="156" width="205" height="54" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-18" value="+ addEmployee&lt;div&gt;(Librarian emp)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;: void&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="210" width="199" height="40" as="geometry" />
+          <mxGeometry y="210" width="205" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="chUHbdW1xkKSAvhsrKf5-19" value="+ addBookEntry&lt;div&gt;(BookEntry entry) : void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="250" width="199" height="40" as="geometry" />
+        <mxCell id="chUHbdW1xkKSAvhsrKf5-19" value="+ hasEmployee&lt;div&gt;(int ID) : boolean&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
+          <mxGeometry y="250" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNvIvl79tMsVRz-qhqXm-11" value="+ getEmployee&lt;div&gt;(int ID)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;: Librarian&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="chUHbdW1xkKSAvhsrKf5-0">
+          <mxGeometry y="290" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNvIvl79tMsVRz-qhqXm-13" value="+ removeEmployee&lt;div&gt;(int ID, String reason)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;: void&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="chUHbdW1xkKSAvhsrKf5-0">
+          <mxGeometry y="330" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iNvIvl79tMsVRz-qhqXm-12" value="+ addEmployee&lt;div&gt;(Librarian emp)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;: void&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="chUHbdW1xkKSAvhsrKf5-0">
+          <mxGeometry y="370" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-21" value="+ manageLoan() : void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="290" width="199" height="30" as="geometry" />
+          <mxGeometry y="410" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-22" value="+ addMember&lt;div&gt;(Member member) : void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="chUHbdW1xkKSAvhsrKf5-0" vertex="1">
-          <mxGeometry y="320" width="199" height="40" as="geometry" />
+          <mxGeometry y="440" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wYOp3Uvvmp2U9gyyuIDl-5" value="1" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="224" y="-30" width="60" height="30" as="geometry" />
