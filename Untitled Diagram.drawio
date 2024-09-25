@@ -71,24 +71,30 @@
           <mxGeometry y="138" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Loan" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="610" y="90" width="175" height="216" as="geometry">
+          <mxGeometry x="610" y="90" width="178" height="260" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--18" value="+ loanID : int&#xa;+ loanDuration : String&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="26" width="175" height="54" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--18" value="+ loanID : int&#xa;+ loanDuration : String&#xa;+ amountPaid : float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+          <mxGeometry y="26" width="178" height="54" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--23" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="80" width="175" height="10" as="geometry" />
+          <mxGeometry y="80" width="178" height="10" as="geometry" />
         </mxCell>
         <mxCell id="64K2vE5NSlZGig4ldIWL-3" value="+ Loan(int id, String duration)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="90" width="175" height="30" as="geometry" />
+          <mxGeometry y="90" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="64K2vE5NSlZGig4ldIWL-17" value="+ isReturned() : boolean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="120" width="175" height="30" as="geometry" />
+          <mxGeometry y="120" width="178" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="64K2vE5NSlZGig4ldIWL-26" value="+ bill() : void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="150" width="175" height="30" as="geometry" />
+        <mxCell id="iNvIvl79tMsVRz-qhqXm-35" value="+ isOverdue&lt;div&gt;(String currenDate) : boolean&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+          <mxGeometry y="150" width="178" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="64K2vE5NSlZGig4ldIWL-26" value="+ pay(float amount) : void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+          <mxGeometry y="190" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iNvIvl79tMsVRz-qhqXm-36" value="+ getBill&lt;span style=&quot;background-color: initial;&quot;&gt;() : float&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+          <mxGeometry y="220" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="chUHbdW1xkKSAvhsrKf5-0" value="Library" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="224" width="205" height="560" as="geometry">
